@@ -1,33 +1,31 @@
 <!DOCTYPE html>
+<!--
+  Creating a Simple Responsive HTML Email
+  https://webdesign.tutsplus.com/articles/creating-a-simple-responsive-html-email--webdesign-12978?ref=reallygoodemails
+ -->
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <title>A simple Responsive HTML Email</title>
   <style>
-    body {
-      margin: 0;
-      padding: 0;
-      min-width: 100% !important;
-    }
-    .content {
-      width: 100%;
-      max-width: 600px;
-    }
+    body { margin: 0; padding: 0;  min-width: 100% !important; }
+    .content { width: 100%; max-width: 600px; }
+    .header { padding: 40px 30px 20px 30px; }
   </style>
 </head>
 <body yahoo bgcolor="#f6f81">
   <table width="100%" bgcolor="#f6f8f1" border="0" cellpadding="0" cellspacing="0">
     <tr>
-      <td>
-        <table class="content" align="center" cellpadding="0" cellspacing="0" border="0">
+      <td class="header" bgcolor="#c7d8a7">
+        <table class="content" width="70" align="left" cellpadding="0" cellspacing="0" border="0">
           <tr>
-            <td>
+            <td height="70" style="padding: 0 20px 20px 0;">
               Hello!
             </td>
           <tr>
         </table>
       <td>
     </tr>
-  </table>      
+  </table>
 </body>
 </html>
